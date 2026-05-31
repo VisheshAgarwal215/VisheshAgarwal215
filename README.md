@@ -55,18 +55,22 @@
 
 ---
 
-## 📊 GitHub Stats & Activity
+
+## 📊 GitHub Analytics
 
 <div align="center">
 
-<!-- Stats + Top Langs side by side — NO activity graph (hides sparse contributions) -->
-<img height="185em" src="https://github-readme-stats.vercel.app/api?username=VisheshAgarwal215&show_icons=true&theme=midnight-purple&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=a78bfa&icon_color=7c3aed&text_color=c9d1d9&rank_icon=github" />
-<img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VisheshAgarwal215&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&langs_count=8" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=VisheshAgarwal215&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true"/>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VisheshAgarwal215&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+
+</div>
 
 <br/>
 
-<!-- Streak -->
-<img src="https://nirzak-streak-stats.vercel.app/?user=VisheshAgarwal215&theme=midnight-purple&hide_border=true&background=0d1117&ring=7c3aed&fire=a78bfa&currStreakLabel=a78bfa&sideLabels=c9d1d9&dates=6b7280" width="60%"/>
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=VisheshAgarwal215&theme=tokyonight&hide_border=true"/>
 
 </div>
 
