@@ -13,8 +13,8 @@
 <!-- Social Badges -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/visheshagarwal0089)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aga.v.0089@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/visheshagarwal0089)
-[![Profile Views](https://komarev.com/ghpvc/?username=visheshagarwal0089&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS)](https://github.com/visheshagarwal0089)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VisheshAgarwal215)
+[![Profile Views](https://komarev.com/ghpvc/?username=VisheshAgarwal215&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS)](https://github.com/VisheshAgarwal215)
 
 </div>
 
@@ -47,9 +47,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/visheshagarwal0089/visheshagarwal0089/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/visheshagarwal0089/visheshagarwal0089/output/github-snake.svg" />
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/visheshagarwal0089/visheshagarwal0089/output/github-snake-dark.svg" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VisheshAgarwal215/VisheshAgarwal215/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VisheshAgarwal215/VisheshAgarwal215/output/github-snake.svg" />
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/VisheshAgarwal215/VisheshAgarwal215/output/github-snake-dark.svg" width="100%"/>
   </picture>
 </div>
 
@@ -59,19 +59,14 @@
 
 <div align="center">
 
-<!-- Full-year activity graph -->
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=visheshagarwal0089&bg_color=0d1117&color=a78bfa&line=7c3aed&point=c4b5fd&area=true&area_color=2e1065&hide_border=true&custom_title=Vishesh%27s%20Contribution%20Graph%20📈&title_color=a78bfa)](https://github.com/visheshagarwal0089)
-
-<br/>
-
-<!-- Stats + Top Langs side by side -->
-<img height="185em" src="https://github-readme-stats.vercel.app/api?username=visheshagarwal0089&show_icons=true&theme=midnight-purple&hide_border=true&include_all_commits=true&count_private=false&bg_color=0d1117&title_color=a78bfa&icon_color=7c3aed&text_color=c9d1d9&rank_icon=github" />
-<img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=visheshagarwal0089&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&langs_count=8" />
+<!-- Stats + Top Langs side by side — NO activity graph (hides sparse contributions) -->
+<img height="185em" src="https://github-readme-stats.vercel.app/api?username=VisheshAgarwal215&show_icons=true&theme=midnight-purple&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=a78bfa&icon_color=7c3aed&text_color=c9d1d9&rank_icon=github" />
+<img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VisheshAgarwal215&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&langs_count=8" />
 
 <br/>
 
 <!-- Streak -->
-<img src="https://nirzak-streak-stats.vercel.app/?user=visheshagarwal0089&theme=midnight-purple&hide_border=true&background=0d1117&ring=7c3aed&fire=a78bfa&currStreakLabel=a78bfa&sideLabels=c9d1d9&dates=6b7280" width="60%"/>
+<img src="https://nirzak-streak-stats.vercel.app/?user=VisheshAgarwal215&theme=midnight-purple&hide_border=true&background=0d1117&ring=7c3aed&fire=a78bfa&currStreakLabel=a78bfa&sideLabels=c9d1d9&dates=6b7280" width="60%"/>
 
 </div>
 
@@ -80,7 +75,7 @@
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=visheshagarwal0089&theme=discord&no-frame=true&no-bg=true&margin-w=8&row=2&column=4" width="100%"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=VisheshAgarwal215&theme=discord&no-frame=true&no-bg=true&margin-w=8&row=2&column=4" width="100%"/>
 </div>
 
 ---
