@@ -1,0 +1,154 @@
+<svg width="100%" viewBox="0 0 680 420" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Vishesh Agarwal – Skills Overview</title>
+  <desc>Animated skill bars and radar chart showing proficiency across domains</desc>
+
+  <defs>
+    <style>
+      .bar-fill { animation: growBar 1.4s cubic-bezier(.4,0,.2,1) forwards; transform-origin: left center; }
+      @keyframes growBar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+      .label { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 12px; fill: #a78bfa; }
+      .pct   { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 11px; fill: #7c3aed; font-weight: 600; }
+      .head  { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 13px; fill: #c4b5fd; font-weight: 700; letter-spacing: 1px; }
+      .sub   { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 10px; fill: #6b7280; }
+      .radar-line { stroke: #4c1d95; stroke-width: 0.5; fill: none; }
+      .radar-fill { fill: #7c3aed; fill-opacity: 0.25; stroke: #a78bfa; stroke-width: 1.5; }
+      .radar-dot  { fill: #a78bfa; }
+      .radar-label{ font-family: 'Segoe UI', system-ui, sans-serif; font-size: 11px; fill: #c4b5fd; text-anchor: middle; }
+      .dot-ring   { fill: none; stroke: #312e81; stroke-width: 0.5; }
+    </style>
+  </defs>
+
+  <!-- ── Background panels ── -->
+  <rect x="20"  y="20"  width="300" height="380" rx="12" fill="#0d1117" stroke="#1e1b4b" stroke-width="1"/>
+  <rect x="340" y="20"  width="320" height="380" rx="12" fill="#0d1117" stroke="#1e1b4b" stroke-width="1"/>
+
+  <!-- ══ LEFT: Skill Bars ══ -->
+  <text class="head" x="40" y="52">⚡ SKILL PROFICIENCY</text>
+
+  <!-- Frontend -->
+  <text class="label" x="40"  y="85">🌐 Frontend</text>
+  <text class="pct"   x="286" y="85">82%</text>
+  <rect x="40" y="92" width="246" height="7" rx="3.5" fill="#1e1b4b"/>
+  <rect class="bar-fill" x="40" y="92" width="202" height="7" rx="3.5" fill="#7c3aed" style="animation-delay:0.1s"/>
+
+  <!-- Backend -->
+  <text class="label" x="40"  y="122">⚙️ Backend</text>
+  <text class="pct"   x="280" y="122">72%</text>
+  <rect x="40" y="129" width="246" height="7" rx="3.5" fill="#1e1b4b"/>
+  <rect class="bar-fill" x="40" y="129" width="177" height="7" rx="3.5" fill="#6d28d9" style="animation-delay:0.2s"/>
+
+  <!-- AI / ML -->
+  <text class="label" x="40"  y="159">🤖 AI / ML</text>
+  <text class="pct"   x="275" y="159">64%</text>
+  <rect x="40" y="166" width="246" height="7" rx="3.5" fill="#1e1b4b"/>
+  <rect class="bar-fill" x="40" y="166" width="157" height="7" rx="3.5" fill="#5b21b6" style="animation-delay:0.3s"/>
+
+  <!-- DevOps -->
+  <text class="label" x="40"  y="196">🐳 DevOps</text>
+  <text class="pct"   x="275" y="196">62%</text>
+  <rect x="40" y="203" width="246" height="7" rx="3.5" fill="#1e1b4b"/>
+  <rect class="bar-fill" x="40" y="203" width="152" height="7" rx="3.5" fill="#4c1d95" style="animation-delay:0.4s"/>
+
+  <!-- Design -->
+  <text class="label" x="40"  y="233">🎨 Design</text>
+  <text class="pct"   x="270" y="233">55%</text>
+  <rect x="40" y="240" width="246" height="7" rx="3.5" fill="#1e1b4b"/>
+  <rect class="bar-fill" x="40" y="240" width="135" height="7" rx="3.5" fill="#3b0764" style="animation-delay:0.5s"/>
+
+  <!-- Problem Solving -->
+  <text class="label" x="40"  y="270">🧩 Problem Solving</text>
+  <text class="pct"   x="286" y="270">88%</text>
+  <rect x="40" y="277" width="246" height="7" rx="3.5" fill="#1e1b4b"/>
+  <rect class="bar-fill" x="40" y="277" width="216" height="7" rx="3.5" fill="#7c3aed" style="animation-delay:0.6s"/>
+
+  <!-- Learning -->
+  <text class="label" x="40"  y="307">📚 Learning Speed</text>
+  <text class="pct"   x="286" y="307">90%</text>
+  <rect x="40" y="314" width="246" height="7" rx="3.5" fill="#1e1b4b"/>
+  <rect class="bar-fill" x="40" y="314" width="221" height="7" rx="3.5" fill="#a78bfa" style="animation-delay:0.7s"/>
+
+  <!-- Divider -->
+  <line x1="40" y1="345" x2="300" y2="345" stroke="#1e1b4b" stroke-width="1"/>
+  <text class="sub" x="40"  y="362">▸ Java  Python  JS  React  Node</text>
+  <text class="sub" x="40"  y="377">▸ TF  PyTorch  Docker  Firebase</text>
+
+  <!-- ══ RIGHT: Radar Chart ══ -->
+  <text class="head" x="360" y="52">🕸 FOCUS RADAR</text>
+
+  <!-- Radar grid (5 concentric hexagons) -->
+  <!-- cx=500 cy=230 -->
+  <!-- 6 axes: Frontend(90°), Backend(30°), ML(330°), DevOps(270°), Design(210°), ProbSolve(150°) -->
+  <!-- Axis angles: 270,330,30,90,150,210 deg -->
+
+  <!-- Ring 1 r=20 -->
+  <polygon class="dot-ring" points="500,210 517,220 517,240 500,250 483,240 483,220"/>
+  <!-- Ring 2 r=40 -->
+  <polygon class="dot-ring" points="500,190 535,210 535,250 500,270 465,250 465,210"/>
+  <!-- Ring 3 r=60 -->
+  <polygon class="dot-ring" points="500,170 552,200 552,260 500,290 448,260 448,200"/>
+  <!-- Ring 4 r=80 -->
+  <polygon class="dot-ring" points="500,150 569,190 569,270 500,310 431,270 431,190"/>
+  <!-- Ring 5 r=100 -->
+  <polygon class="dot-ring" points="500,130 587,180 587,280 500,330 413,280 413,180"/>
+
+  <!-- Axis lines -->
+  <line class="radar-line" x1="500" y1="230" x2="500" y2="130"/>
+  <line class="radar-line" x1="500" y1="230" x2="587" y2="180"/>
+  <line class="radar-line" x1="500" y1="230" x2="587" y2="280"/>
+  <line class="radar-line" x1="500" y1="230" x2="500" y2="330"/>
+  <line class="radar-line" x1="500" y1="230" x2="413" y2="280"/>
+  <line class="radar-line" x1="500" y1="230" x2="413" y2="180"/>
+
+  <!--
+    Skill values (0-100 → scale 0-100 mapped to r=0-100):
+    Frontend   90° up    82%  → (500, 230-82) = (500,148)
+    ProbSolve  30° NE    88%  → cx+88*cos(30)=576, cy-88*sin(30)=186 → (576,186)  [top-right]
+    Backend    330° SE   72%  → cx+72*cos(330)=562, cy+72*sin(30)=266 → hmm let me use exact hex layout
+
+    Using flat-top hex with 6 axes evenly at 60° apart:
+    Axis 0 (top):      angle=270° → (cx + r*cos270, cy + r*sin270) = (cx, cy-r)
+    Axis 1 (top-right):angle=330° → (cx + r*cos330, cy + r*sin330) = (cx+r*0.866, cy-r*0.5)
+    Axis 2 (bot-right):angle=30°  → (cx + r*cos30,  cy + r*sin30)  = (cx+r*0.866, cy+r*0.5)
+    Axis 3 (bottom):   angle=90°  → (cx, cy+r)
+    Axis 4 (bot-left): angle=150° → (cx-r*0.866, cy+r*0.5)
+    Axis 5 (top-left): angle=210° → (cx-r*0.866, cy-r*0.5)
+
+    Labels:     top=Frontend, top-right=Problem Solving, bot-right=Backend, bottom=AI/ML, bot-left=DevOps, top-left=Design
+    Values:     82,           88,                        72,               64,            62,               55
+
+    Points:
+    Frontend   (top)     r=82  → (500, 230-82)        = (500, 148)
+    ProbSolve  (top-r)   r=88  → (500+88*.866, 230-44) = (576, 186)
+    Backend    (bot-r)   r=72  → (500+72*.866, 230+36) = (562, 266)
+    AI/ML      (bottom)  r=64  → (500, 230+64)         = (500, 294)
+    DevOps     (bot-l)   r=62  → (500-62*.866, 230+31) = (446, 261)
+    Design     (top-l)   r=55  → (500-55*.866, 230-27.5)= (452, 203)
+  -->
+  <polygon class="radar-fill" points="500,148 576,186 562,266 500,294 446,261 452,203"/>
+
+  <!-- Data dots -->
+  <circle class="radar-dot" cx="500" cy="148" r="4"/>
+  <circle class="radar-dot" cx="576" cy="186" r="4"/>
+  <circle class="radar-dot" cx="562" cy="266" r="4"/>
+  <circle class="radar-dot" cx="500" cy="294" r="4"/>
+  <circle class="radar-dot" cx="446" cy="261" r="4"/>
+  <circle class="radar-dot" cx="452" cy="203" r="4"/>
+
+  <!-- Axis labels -->
+  <text class="radar-label" x="500" y="120">Frontend</text>
+  <text class="radar-label" x="608" y="186">Problem</text>
+  <text class="radar-label" x="608" y="198">Solving</text>
+  <text class="radar-label" x="606" y="274">Backend</text>
+  <text class="radar-label" x="500" y="350">AI / ML</text>
+  <text class="radar-label" x="393" y="274">DevOps</text>
+  <text class="radar-label" x="393" y="186">Design</text>
+
+  <!-- Value labels on dots -->
+  <text class="pct" x="512" y="145" font-size="10">82%</text>
+  <text class="pct" x="580" y="183" font-size="10">88%</text>
+  <text class="pct" x="566" y="263" font-size="10">72%</text>
+  <text class="pct" x="504" y="310" font-size="10">64%</text>
+  <text class="pct" x="420" y="258" font-size="10">62%</text>
+  <text class="pct" x="420" y="200" font-size="10">55%</text>
+
+</svg>
